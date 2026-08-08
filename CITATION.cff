@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use LCIBench, please cite the associated paper."
+title: "LCIBench: A Lean Benchmark for Classic Combinatorial Identities"
+type: dataset
+authors:
+  - family-names: Xiong
+    given-names: Beibei
+  - family-names: Lv
+    given-names: Hangyu
+  - family-names: Liu
+    given-names: Junqi
+  - family-names: Wang
+    given-names: Yisen
+  - family-names: Chen
+    given-names: Shaoshi
+  - family-names: Wang
+    given-names: Jianlin
+  - family-names: Yang
+    given-names: Zhengfeng
+  - family-names: Zhi
+    given-names: Lihong
+repository-code: "https://github.com/BeibeiX0/LCI-Bench"
+url: "https://arxiv.org/abs/2605.04472"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Automated Formal Proofs of Combinatorial Identities via Wilf-Zeilberger Guidance and LLMs"
+  authors:
+    - family-names: Xiong
+      given-names: Beibei
+    - family-names: Lv
+      given-names: Hangyu
+    - family-names: Liu
+      given-names: Junqi
+    - family-names: Wang
+      given-names: Yisen
+    - family-names: Chen
+      given-names: Shaoshi
+    - family-names: Wang
+      given-names: Jianlin
+    - family-names: Yang
+      given-names: Zhengfeng
+    - family-names: Zhi
+      given-names: Lihong
+  year: 2026
+  url: "https://arxiv.org/abs/2605.04472"
