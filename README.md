@@ -1,14 +1,14 @@
-# LCIBench
+# LCI-Bench
 
 [![arXiv](https://img.shields.io/badge/arXiv-2605.04472-b31b1b.svg)](https://arxiv.org/abs/2605.04472)
 [![Lean](https://img.shields.io/badge/Lean-4.25.0-blue.svg)](https://github.com/leanprover/lean4/releases/tag/v4.25.0)
 [![Mathlib](https://img.shields.io/badge/Mathlib-4.25.0-blue.svg)](https://github.com/leanprover-community/mathlib4/releases/tag/v4.25.0)
 
-LCIBench is a Lean 4 benchmark for evaluating automated theorem proving on
+LCI-Bench is a Lean 4 benchmark for evaluating automated theorem proving on
 classic combinatorial identities. It contains 100 source-disjoint problems,
 formalized from two standard collections of combinatorial identities.
 
-LCIBench is the public release name of the **LCI-Test** benchmark introduced in
+LCI-Bench is the public release name of the **LCI-Test** benchmark introduced in
 the ICML 2026 paper [*Automated Formal Proofs of Combinatorial Identities via
 Wilf-Zeilberger Guidance and LLMs*](https://arxiv.org/abs/2605.04472).
 
@@ -34,9 +34,9 @@ Lean kernel.
 ## Repository layout
 
 ```text
-LCIBench/
+LCI-Bench/
 |-- lean/               # 100 standalone Lean theorem files
-|-- LCIBench.jsonl      # Machine-readable benchmark data
+|-- LCI-Bench.jsonl     # Machine-readable benchmark data
 |-- CITATION.cff        # Citation metadata for GitHub and reference managers
 |-- LICENSE             # MIT license
 |-- lakefile.lean       # Lake package and Mathlib dependency
@@ -49,7 +49,7 @@ which the corresponding identity was selected.
 
 ## Dataset format
 
-`LCIBench.jsonl` contains one JSON object per line with the following fields:
+`LCI-Bench.jsonl` contains one JSON object per line with the following fields:
 
 | Field | Description |
 | --- | --- |
@@ -111,7 +111,7 @@ to an informal derivation or generated proof is not sufficient.
 ## Benchmark integrity
 
 Publicly releasing completed proofs for the benchmark can contaminate future
-evaluations. To preserve LCIBench as a useful test set:
+evaluations. To preserve LCI-Bench as a useful test set:
 
 - do not submit pull requests that fill the benchmark proof holes;
 - do not publish solved copies in locations likely to enter model training
@@ -124,7 +124,7 @@ prompt development, retrieval, or tool development.
 
 ## Citation
 
-If you use LCIBench, please cite the associated paper:
+If you use LCI-Bench, please cite the associated paper:
 
 ```bibtex
 @misc{xiong2026automatedformalproofs,

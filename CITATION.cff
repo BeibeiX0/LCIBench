@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use LCIBench, please cite the associated paper."
-title: "LCIBench: A Lean Benchmark for Classic Combinatorial Identities"
+message: "If you use LCI-Bench, please cite the associated paper."
+title: "LCI-Bench: A Lean Benchmark for Classic Combinatorial Identities"
 type: dataset
 authors:
   - family-names: Xiong
