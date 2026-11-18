@@ -1,14 +1,14 @@
-# LCI-Bench
+# LCIBench
 
 [![arXiv](https://img.shields.io/badge/arXiv-2605.04472-b31b1b.svg)](https://arxiv.org/abs/2605.04472)
 [![Lean](https://img.shields.io/badge/Lean-4.25.0-blue.svg)](https://github.com/leanprover/lean4/releases/tag/v4.25.0)
 [![Mathlib](https://img.shields.io/badge/Mathlib-4.25.0-blue.svg)](https://github.com/leanprover-community/mathlib4/releases/tag/v4.25.0)
 
-LCI-Bench is a Lean 4 benchmark for evaluating automated theorem proving on
+LCIBench is a Lean 4 benchmark for evaluating automated theorem proving on
 classic combinatorial identities. It contains 100 source-disjoint problems,
 formalized from two standard collections of combinatorial identities.
 
-LCI-Bench is the public release name of the **LCI-Test** benchmark introduced in
+LCIBench is the public release name of the **LCI-Test** benchmark introduced in
 the ICML 2026 paper [*Automated Formal Proofs of Combinatorial Identities via
 Wilf-Zeilberger Guidance and LLMs*](https://arxiv.org/abs/2605.04472).
 
